@@ -62,7 +62,7 @@ closeIcon.style.left = "30em";
 let httpRequest = new XMLHttpRequest();
 
 httpRequest.onreadystatechange = function() {
-    if (httpRequest.readyState === XMLHttpRequest.DONE){
+    if (httpRequest.readyState === XMLHttpRequest.DONE) {
         if(httpRequest.status === 200){
             layer.innerText = httpRequest.responseText;
         }
@@ -76,8 +76,7 @@ httpRequest.open("GET", "layerSecurity.txt", true);
 httpRequest.send();
 
 // Button's function
-
-closeIcon.addEventListener("click", function(){
+closeIcon.addEventListener("click", function() {
     layer.style.display = "none";
     this.style.display = "none";
 });
