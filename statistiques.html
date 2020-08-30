@@ -53,17 +53,17 @@
 
   <!-- Main -->
   <!-- Array -->
-  <main class="container my-4 mx-auto text-center"  style="width: 550px; font-weight: bolder;">
+  <main class="container my-4 mx-auto text-center"  style="width: 550px; font-weight: bolder; overflow: auto;">
         <table class="table">
-          <thead>
-            <th class="bg-primary text-white"> Pays</th>
-            <th class="bg-primary text-white"> Indice Boursier</th>
-            <th class="bg-primary text-white"> Valeur</th>
-            <th class="bg-primary text-white"> Indexation</th>
+          <thead class="bg-dark text-white">
+            <th> Pays</th>
+            <th> Indice Boursier</th>
+            <th> Valeur</th>
+            <th> Indexation</th>
           </thead>
           <tbody id="valuesList">
         </table>
-        <input type="button" value="Mise à jour" class="btn btn-warning" onclick="createArray()"></input>
+        <input type="button" value="Actualiser" class="btn btn-info text-dark" style="font-weight: bolder;" onclick="createArray()"></input>
       </main>
   </main>
   <!-- End of Main -->
