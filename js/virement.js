@@ -1,6 +1,6 @@
 let accountChoice = document.getElementById("accountDebit");
 let accountToCredit = document.getElementById("accountCredit");
-let amounToTransfert = document.getElementById("amountTransfert");
+let amountToTransfert = document.getElementById("amountTransfert");
 let validation = document.getElementById("validation");
 let accountFalse = document.getElementById("wrongAccount");
 let amountFalse = document.getElementById("wrongAmount");

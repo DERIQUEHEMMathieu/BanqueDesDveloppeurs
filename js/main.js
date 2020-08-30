@@ -2,6 +2,8 @@ let compteC = document.getElementById("compteCourant"); // Targeting <span> card
 let LivretA = document.getElementById("livretA");
 let epargneLogement = document.getElementById("PEL");
 let developpementDurable = document.getElementById("pdd");
+let button = document.getElementsByTagName("button");
+console.log(button);
 
 // Creation of the balance object
 let solde = {
@@ -55,7 +57,7 @@ closeIcon.style.backgroundColor = "yellow";
 closeIcon.innerText = "J'ai compris";
 closeIcon.style.fontWeight = "bold";
 closeIcon.style.position = "relative";
-closeIcon.style.bottom = "880px";
+closeIcon.style.bottom = "910px";
 closeIcon.style.left = "30em";
 
 // Layer's display with AJAX
